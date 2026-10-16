@@ -1,0 +1,21 @@
+{
+  "name": "offline-qwen-chat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.2",
+    "pdfjs-dist": "^4.10.38",
+    "lucide": "^0.468.0",
+    "marked": "^15.0.7",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
